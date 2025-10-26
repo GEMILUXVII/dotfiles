@@ -11,7 +11,7 @@ end
 -- ╰─────────────────────────────────────────────────────────╯
 
 -- FONT
-config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Regular" })
+config.font = wezterm.font("JetBrainsMonoNL Nerd Font Mono", { weight = "Regular" })
 config.font_size = 16
 config.line_height = 1.1
 
