@@ -1,0 +1,108 @@
+//    _____                 __    _____       __         .__     
+//  _/ ____\____    _______/  |__/ ____\_____/  |_  ____ |  |__  
+//  \   __\\__  \  /  ___/\   __\   __\/ __ \   __\/ ___\|  |  \ 
+//   |  |   / __ \_\___ \  |  |  |  | \  ___/|  | \  \___|   Y  \
+//   |__|  (____  /____  > |__|  |__|  \___  >__|  \___  >___|  /
+//              \/     \/                  \/          \/     \/  ASCII-ART CONFIG
+//   by GEMILUXVII
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/dotfiles/.config/fastfetch/Kirby_Nintendo_ASCII_ART.txt",
+        "padding": {
+            "right": 6
+        }
+    },
+    "display": {
+        "separator": " ›  "
+    },
+    "modules": [
+        "break",
+        {
+            "type": "os",
+            "key": "OS  ",
+            "keyColor": "31" // Red
+        },
+        {
+            "type": "kernel",
+            "key": "KER ",
+            "keyColor": "32" // Green
+        },
+        {
+            "type": "uptime",
+            "key": "UP  ",
+            "keyColor": "33" // Yellow
+        },
+        {
+            "type": "packages",
+            "format": "{} (rpm)",
+            "key": "PKG ",
+            "keyColor": "34" // Blue
+        },
+        {
+            "type": "shell",
+            "key": "SH  ",
+            "keyColor": "35" // Magenta
+        },
+        {
+            "type": "display",
+            "key": "DISP",
+            "keyColor": "36" // Cyan
+        },
+        {
+            "type": "cpu",
+            "key": "CPU ",
+            "keyColor": "31", // Red
+            "format": "AMD Ryzen ({2} / {3}) @ {7}"
+        },
+        {
+            "type": "memory",
+            "key": "MEM ",
+            "keyColor": "32" // Green
+        },
+        {
+            "type": "gpu",
+            "key": "GPU ",
+            "keyColor": "33", // Yellow
+            "format": "NVIDIA GeForce"
+        },
+        {
+            "type": "vulkan",
+            "key": "VLK ",
+            "keyColor": "34" // Blue
+        },
+        {
+            "type": "opengl",
+            "key": "OGL ",
+            "keyColor": "35" // Magenta
+        },
+        {
+            "type": "opencl",
+            "key": "OCL ",
+            "keyColor": "36" // Cyan
+        },
+        {
+            "type": "wm",
+            "key": "WM  ",
+            "keyColor": "31" // Red
+        },
+        {
+            "type": "users",
+            "key": "USR ",
+            "keyColor": "32" // Green
+        },
+        {
+            "type": "version",
+            "key": "VER ",
+            "keyColor": "33" // Yellow
+        },
+        {
+            "type": "datetime",
+            "key": "DT  ",
+            "keyColor": "34" // Blue
+        },
+        "break",
+        "colors"
+    ]
+}

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=i3(custom)
+Comment=Launches i3 wm with a custom .xinitrc script
+Exec=/home/destin/.xinitrc
+Type=Application
+
